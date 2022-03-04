@@ -10,6 +10,17 @@
   align-content: stretch;
 }
 
+#menu5 {
+  text-align:left;
+}
+#menu10 {
+  text-align:center;
+}
+#menu15 {
+  text-align:right;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
