@@ -1,6 +1,6 @@
 const express = require('express')
 const app = new express()
-const db = require('better-sqlite3')('InsidetehFive.db')
+const db = require('better-sqlite3')('InsidetheFive.db')
 
 app.use(express.json())
 
