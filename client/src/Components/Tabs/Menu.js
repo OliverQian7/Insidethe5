@@ -15,7 +15,7 @@ function Menu() {
                 </tr>
                 <tr>
                     <th>Cauliflower bites: Flash fried and tosed in your choice of sauce or seasoning - served with ranch or blue cheese.</th>
-                    <th>The IT5 burger: 80z Burger with boursin, smoked gouda + roasted garlic onion jam.</th>
+                    <th>The IT5 burger: 8oz Burger with boursin, smoked gouda + roasted garlic onion jam.</th>
                     <th>ITF Meatloaf: Traditional meatloaf finished on the chargrill served atop creamy mashed potatoes with a chipotle bourbon glaze and onion tangles.</th>
                 </tr>
                 <tr>
@@ -37,7 +37,6 @@ function Menu() {
 
 
             <subtitle1 id="menubody">
-            Menu
             </subtitle1>
         </div>
     )
