@@ -21,9 +21,18 @@
   text-align:right;
   float: right;
 }
+th{
+  border: 1px solid black;
+}
 
 #menutable {
-  width: 100%;
+  margin: auto;
+  width: 95%;
+  border-style:solid;
+  border-bottom:solid;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
 }
 
 
