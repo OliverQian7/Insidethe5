@@ -10,16 +10,20 @@
   align-content: stretch;
 }
 
-#menu5 {
-  text-align:left;
+header {
+  position: sticky;
+  overflow: hidden;
+  text-decoration: none;
 }
-#menu10 {
-  text-align:center;
-  float: center;
-}
-#menu15 {
-  text-align:right;
-  float: right;
+
+header a {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 15px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 th{
   border: 1px solid black;
@@ -33,6 +37,15 @@ th{
   border-top: solid;
   border-left: solid;
   border-right: solid;
+}
+
+#topthing {
+  color: white;
+}
+
+#mainpage {
+  background-color: tomato;
+  min-height: 90vh;
 }
 
 
@@ -51,6 +64,20 @@ th{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+li {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .App-link {
