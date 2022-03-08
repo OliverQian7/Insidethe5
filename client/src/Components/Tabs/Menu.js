@@ -2,9 +2,14 @@ function Menu() {
     return (
         <div>
             <h1 id = "MenuTop">Our Menu</h1>
-            <h3 id = "menu5">$5 Apps</h3>
-            <h3 id = "menu10">$10 Menu</h3>
-            <h3 id = "menu15">$15 Menu</h3>
+            <table id = "menutable">
+                <tr>
+                    <th>$5 Apps</th>
+                    <th>$10 Menu</th>
+                    <th>$15 Menu</th>
+                </tr>
+            </table>
+
 
             <subtitle1 id="menubody">
             Menu

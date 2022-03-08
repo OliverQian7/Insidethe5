@@ -10,14 +10,33 @@
   align-content: stretch;
 }
 
-#menu5 {
-  text-align:left;
+header {
+  position: sticky;
+  overflow: hidden;
+  text-decoration: none;
 }
-#menu10 {
-  text-align:center;
+
+header a {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 15px;
+  border-radius: 15px;
+  text-decoration: none;
 }
-#menu15 {
-  text-align:right;
+
+#menutable {
+  width: 100%;
+}
+
+#topthing {
+  color: white;
+}
+
+#mainpage {
+  background-color: tomato;
+  min-height: 90vh;
 }
 
 
@@ -29,13 +48,27 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+li {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .App-link {
