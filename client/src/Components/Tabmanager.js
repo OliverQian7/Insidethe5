@@ -29,8 +29,8 @@ function Tabmanager() {
         setActiveTab(<Order />)
     }
         return (
-            <div>
-                <header>
+            <div id = "mainpage">
+                <header >
                     <ul>
                         <li><a  onClick={handleHome}>Home</a></li>
                         <li><a  onClick={handleMenu}>Menu</a></li>

@@ -30,6 +30,15 @@ header a {
   width: 100%;
 }
 
+#topthing {
+  color: white;
+}
+
+#mainpage {
+  background-color: tomato;
+  min-height: 90vh;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -50,6 +59,8 @@ header a {
 
 li {
   float: left;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 li a {
