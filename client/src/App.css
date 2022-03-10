@@ -9,15 +9,7 @@
 #pic1 {
   align-content: stretch;
 }
-#caterwarning {
-  font-weight: bold;
-}
-#eventfee1 {
-font-weight: bold;
-}
-#eventfee3 {
-font-weight: bold;
-}
+
 header {
   position: sticky;
   overflow: hidden;
