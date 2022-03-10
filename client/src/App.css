@@ -39,12 +39,20 @@ th{
   border-right: solid;
 }
 
+#headercontact {
+  font-weight: bold;
+}
+
+div {
+  background-color: bisque;
+}
+
 #topthing {
   color: white;
 }
 
 #mainpage {
-  background-color: tomato;
+  background-color: bisque;
   min-height: 90vh;
 }
 
@@ -56,7 +64,7 @@ th{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
