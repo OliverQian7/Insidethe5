@@ -1,17 +1,25 @@
-const express = require('express')
+const express = require("express")
 const app = new express()
-const db = require('better-sqlite3')('InsidetheFive.db')
 
+app.use(express.static("/client/build"))
 app.use(express.json())
+/** 
+* 1. handle GET on /score route
+* @return randomly generated score 0-100
+*/
 
-app.get('/users', (req, res) => {
-    const query = db.prepare("SELECT * FROM users")
-    const events = query.all()
-    res.json({
-        events
-    })
+//2 user posts a score
+
+app.get("/score", (req,res) => {
+    const score = Math.floor(Math.random() * 101)
+    res.json({score})
+})
+
+app.post("/addScore", (req,res) => {
+    const{newScore} = req.body
+    console.log(newScore)
 })
 
 app.listen(8080, () => {
-    console.log("h")
+    console.log("server started")
 })
